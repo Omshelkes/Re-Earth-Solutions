@@ -50,11 +50,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
   opacity: 0.25;
   z-index: 1;
   border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
 }
 .logo-overlay a {
   position: relative;
@@ -152,6 +155,16 @@ body {
   }
   .site-nav {
     margin-top: 8px;
+  }
+  .logo-bg {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .logo-overlay a {
+    font-size: 1.2rem;
+    padding: 6px 12px;
   }
 }
 .directors {
